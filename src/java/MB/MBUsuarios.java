@@ -10,13 +10,14 @@ import javax.faces.bean.RequestScoped;
 
 /**
  *
- * @author 
+ * @author CAEN
  */
+
 @ManagedBean
 @RequestScoped
 public class MBUsuarios {
 
-    private String nombre = "CAEN"; 
+    private String nombre = ""; 
     private String apellidoP = ""; 
     private String apellidoM =""; 
     private String pass ="";
